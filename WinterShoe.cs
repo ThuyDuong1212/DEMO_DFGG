@@ -9,7 +9,7 @@ namespace DEMO
 
         }
 
-        public WinterShoe(int size, string name) : base(size, name)
+        public WinterShoe(int size, string name, int price) : base(size, name, price)
         {
         }
 
@@ -21,6 +21,11 @@ namespace DEMO
         public override string GetSize()
         {
             return "This is Winter Shoe: " + Size;
+        }
+
+        public override string GetPrice()
+        {
+            return "This is Winter Shoe: " + Price;
         }
     }
 }

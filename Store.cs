@@ -13,7 +13,7 @@ namespace DEMO
         {
             fashion = new SummerFashion();
             dress = fashion.CreateDress("red", "vay dai");
-            shoe = fashion.CreateShoe(24, "giay");
+            shoe = fashion.CreateShoe(24, "giay", 400);
         }
 
         public void GetName() 
@@ -32,6 +32,11 @@ namespace DEMO
             Console.WriteLine(dress.GetColor());
         }
 
+        public void GetPrice()
+        {
+            Console.WriteLine(shoe.GetPrice());
+        }
+
         public void ChangeTheme(string theme)
         {
             if (theme == "Winter") fashion = new WinterFashion();
@@ -46,14 +51,16 @@ namespace DEMO
             string nameS = shoe.Name;
             string color = dress.Color;
             int size = shoe.Size;
+            int price = shoe.Price;
 
             dress = fashion.CreateDress(color, nameD);
-            shoe = fashion.CreateShoe(size, nameS);
+            shoe = fashion.CreateShoe(size, nameS, price);
             
             GetName();
             GetSize();
 
             GetColor();
+            GetPrice();
         }
 
     }
