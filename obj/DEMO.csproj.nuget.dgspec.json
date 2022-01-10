@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\DEMO\\DEMO.csproj": {}
+    "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\DEMO\\DEMO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\DEMO\\DEMO.csproj": {
+    "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\DEMO\\DEMO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\DEMO\\DEMO.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\DEMO\\DEMO.csproj",
         "projectName": "DEMO",
-        "projectPath": "C:\\Users\\HP\\DEMO\\DEMO.csproj",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\DEMO\\DEMO.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\DEMO\\obj\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Documents\\GitHub\\DEMO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -42,11 +42,11 @@ namespace DEMO
             if (theme == "Winter") fashion = new WinterFashion();
             else fashion = new SummerFashion();
             
-            UpdateInteface();
+            UpdateInterface();
 
         }
 
-        private void UpdateInteface() {
+        private void UpdateInterface() {
             string nameD = dress.Name;
             string nameS = shoe.Name;
             string color = dress.Color;
